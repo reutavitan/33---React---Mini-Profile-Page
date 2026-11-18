@@ -1,36 +1,64 @@
 .friend {
-  background-color: green;
-  color: white;
+  background-color: #b7e4c7;
+  margin-top: 15px;
+  color: #245c3b;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 .teacher {
-  background-color: blue;
-  color: white;
+    margin-top: 15px;
+  background-color: #c9dafa;
+  color: #31558c;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 .student {
-  background-color: purple;
-  color: white;
+    margin-top: 15px;
+  background-color: #e5d0f5;
+  color: #70458c;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
+
 .friend:hover {
-  background-color: darkgreen;
+  background-color: #95d5b2;
+  transform: translateY(-2px);
 }
 
 .teacher:hover {
-  background-color: darkblue;
+  background-color: #a9c5f5;
+  transform: translateY(-2px);
 }
 
 .student:hover {
-  background-color: indigo;
-}
-.friend:focus {
-  outline: 3px solid black;
+  background-color: #d3b4ed;
+  transform: translateY(-2px);
 }
 
-.teacher:focus {
-  outline: 3px solid black;
-}
 
+.friend:focus,
+.teacher:focus,
 .student:focus {
-  outline: 3px solid black;
+  outline: 3px solid #888;
+  outline-offset: 3px;
 }
