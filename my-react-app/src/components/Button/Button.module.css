@@ -1,0 +1,36 @@
+.friend {
+  background-color: green;
+  color: white;
+}
+
+.teacher {
+  background-color: blue;
+  color: white;
+}
+
+.student {
+  background-color: purple;
+  color: white;
+}
+.friend:hover {
+  background-color: darkgreen;
+}
+
+.teacher:hover {
+  background-color: darkblue;
+}
+
+.student:hover {
+  background-color: indigo;
+}
+.friend:focus {
+  outline: 3px solid black;
+}
+
+.teacher:focus {
+  outline: 3px solid black;
+}
+
+.student:focus {
+  outline: 3px solid black;
+}
